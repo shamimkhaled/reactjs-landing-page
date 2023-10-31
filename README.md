@@ -1,70 +1,88 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SPIKE TECH Landing Page 
 
-## Available Scripts
+SPIKE TECH is a react landing page responsive application. SPIKE TECH deployment site: https://spiketech.netlify.app/
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+These instructions will help you set up and deploy the project on your local machine for development and testing purposes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js: Make sure you have Node.js installed on your machine.
 
-### `npm test`
+### Installing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the github project repository to your local machine:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/shamimkhaled/reactjs-landing-page.git
+   
+   ```
+2. Open this project folder on VS Code and run the VS Code terminal
+3. Navigate to the project directory: 
+```bash
+  cd ractjs-landing-page
+```
+4. Install project dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+### Running the Development Server
+To run the project locally, use the following command:
+```bash
+  npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+The development server will start, and you can view the project in your web browser at http://localhost:3000.
 
 ### Deployment
+Follow these instructions to deploy the project to a production environment and read this [deployment] (https://create-react-app.dev/docs/deployment/) documentation.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### Build the Project
+Create an optimized production build by running:
 
-### `npm run build` fails to minify
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will generate a build folder with your optimized static assets.
+
+### Hosting
+You can host your project on various platforms. Some popular options include:
+
+- Netlify
+- Vercel
+- GitHub Pages
+- Heroku
+
+Choose the platform that best suits your needs and follow their deployment instructions.
+
+### Customization
+You can customize the project by modifying the source code, styles, and content to match your specific requirements.
+
+### Built With
+- React - JavaScript library for building user interfaces.
+- react-router-dom - Library is defining and managing routes, rendering components based on URLs, and enabling client-side navigation. 
+- react-responsive-carousel - React-based carousel component for slider.
+- react-icons - Library for including popular icon sets in your React projects.
+- react-countup - Library is used for creating count-up animations
+- react-router-hash-link - Library is to create anchor links or navigation links that smoothly scroll to specific sections within a single-page application
+- SASS(SCSS) - CSS preprocessor for styling and animation.
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+
+
+## Authors
+
+- [@shamimkhaled](https://www.github.com/shamimkhaled)
+
