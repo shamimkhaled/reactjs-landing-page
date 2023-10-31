@@ -1,0 +1,41 @@
+.choose-section {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column; 
+  padding: 20px;
+  text-align: center; 
+
+  .choose-content {
+    margin: 0; 
+    padding: 20px; 
+
+    h2 {
+      font-weight: 600;
+    }
+  }
+
+  .choose-img {
+    position: relative;
+
+    img {
+      border-radius: 15px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: row; 
+
+    .choose-content {
+      flex: 1;
+      padding-right: 50px;
+      margin-top: 120px;
+      text-align: left; 
+    }
+
+    .choose-img {
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@import "colors";
+
+
+.navbar {
+
+  background-color: fff; 
+  color: #150808; 
+  font-size: 1rem;
+  text-align: center;
+  
+  
+  
+  .navbar-brand {
+    font-size: 1.5rem; 
+    margin-left: 100px;
+    margin-right: 130px;
+    color: rgb(85, 85, 236);
+  }
+
+  .navbar-toggler {
+    background-color:aliceblue; 
+    font-weight: 400;
+    color: dark;
+  }
+
+  
+
+  .nav-link {
+    
+    color: #150f0f; 
+    margin-right: 10px;
+    padding: 0.5rem 1rem; 
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s; 
+    &:hover {
+      font-weight: 600;
+      
+    }
+  }
+}
+
+button {
+  border-radius: 10px;
+  background: rgb(85, 85, 236);
+  white-space: nowrap;
+  padding: 10px 20px;
+  font-size: 16px; 
+  color: #fff;
+  outline: none;
+  border: 2px solid #fff;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  font-weight: 400;
+}
+
+// Responsive Styles
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: aliceblue;
+  }
+  .navbar-nav {
+    flex-direction: column; 
+    .nav-link {
+      padding: 1rem; 
+      text-align: center; 
+    }
+
+    button{
+      text-align: center;
+      margin-left: 116px;
+      font-weight: 500;
+
+    }
+  }
+}
+

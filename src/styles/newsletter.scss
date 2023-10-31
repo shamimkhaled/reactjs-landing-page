@@ -1,0 +1,62 @@
+@import 'colors';
+
+.newsletter {
+  background: $secondColor;
+  padding: 60px;
+  border-radius: 0px;
+  text-align: center;
+
+  h2 {
+    color: #fff;
+  }
+
+  .subscribe {
+    display: flex;
+    flex-direction: column; // Start with a column layout for mobile screens
+    align-items: center;
+   
+    width: 80%; // Adjust the width for mobile screens
+    margin: auto;
+    padding: 7px 10px;
+
+    input {
+      width: 100%;
+      padding: 7px 40px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 18px;
+    }
+
+    button.btn {
+      border: none;
+      background: $thirdColor;
+      color: #fff;
+      border-radius: 50px;
+      margin: 10px 0; 
+      padding: 10px 20px;
+      cursor: pointer;
+      outline: none;
+      transition: background-color 0.3s;
+      font-size: 18px;
+      font-weight: 500;
+
+      &:hover {
+        background-color: #1558a5;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .subscribe {
+      flex-direction: row; 
+      width: 35%; 
+      input {
+        width: auto; 
+        margin-bottom: 0; 
+      }
+      button.btn {
+        margin: auto; 
+      }
+    }
+  }
+}

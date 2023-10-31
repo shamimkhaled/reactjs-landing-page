@@ -1,0 +1,43 @@
+.team {
+    padding: 1rem 0;
+    display: flex;
+    
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .team-card {
+    display: flex;
+    justify-content: center;
+   
+    gap: 1rem;
+    padding: 2rem;
+    background-color: aliceblue;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+    img {
+        border-radius: 3rem;
+        width: 30%;
+        height: 6rem;
+    }
+  
+ 
+  }
+  
+
+  @media (min-width: 768px) {
+    .team {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+    .team-card {
+      padding: 2rem; 
+      text-align: left; 
+      justify-content: flex-start; 
+    }
+  }
+    @media (min-width: 1024px) {
+      .team {
+        grid-template-columns: repeat(4, 1fr); 
+      }
+    }

@@ -1,0 +1,65 @@
+.title {
+  text-align: center;
+}
+
+section {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column; 
+
+  > .testimonials {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 1rem;
+
+    > .testimonial {
+      background-color: aliceblue;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      transition: 0.3s ease-in-out;
+
+      &:hover {
+        transform: translateX(0.4rem) translateY(-1rem);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+
+      > .info {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        margin-top: 1rem;
+
+        > img {
+          border-radius: 3rem;
+          height: 3rem;
+        }
+
+        > .details {
+          > span {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    flex-direction: row; 
+    > .testimonials {
+      flex-direction: row; 
+      justify-content: center;
+      margin: 0;
+      .testimonial {
+        justify-content: flex-start; 
+        .info {
+          flex-direction: row; 
+          justify-content: flex-start; 
+        }
+      }
+    }
+  }
+}
